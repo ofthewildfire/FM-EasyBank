@@ -374,6 +374,11 @@ svg:is(:hover, :focus, :active)>path {
      display: block;
 }
 
+
+.footer-btn {
+     margin: .25em 0;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
