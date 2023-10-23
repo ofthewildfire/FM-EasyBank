@@ -376,7 +376,7 @@ svg:is(:hover, :focus, :active)>path {
 
 
 .footer-btn {
-     margin: .25em auto;
+     margin: .5em auto;
 }
 
 /******************************************
