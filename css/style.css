@@ -282,6 +282,7 @@ svg:is(:hover, :focus, :active)>path {
 
 .four-cols__text {
      font-family: var(--ff300);
+     color: hsl(232, 7%, 56%);
 }
 
 /* Articles */
@@ -320,7 +321,8 @@ svg:is(:hover, :focus, :active)>path {
 
 .article__author {
      font-size: .75rem;
-     color: grey;
+     /* color: grey; */
+     color: hsl(0, 0%, 45%);
 }
 
 .article__title {
