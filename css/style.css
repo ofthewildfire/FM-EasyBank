@@ -264,6 +264,7 @@ svg:is(:hover, :focus, :active)>path {
 .middle__container--info {
      margin-bottom: 1em;
      font-size: 1rem;
+     color: hsl(232, 7%, 56%);
 }
 
 .middle__container--four-cols {
@@ -355,6 +356,11 @@ svg:is(:hover, :focus, :active)>path {
 
 .footer__list--container {
      text-align: center;
+}
+
+.footer__link-item {
+     min-height: 48px;
+     min-width: 48px;
 }
 
 /* Footer link hover states */
