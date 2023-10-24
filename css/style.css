@@ -264,7 +264,7 @@ svg:is(:hover, :focus, :active)>path {
 .middle__container--info {
      margin-bottom: 1em;
      font-size: 1rem;
-     color: hsl(232, 7%, 56%);
+     color: var(--ModifiedColor);
 }
 
 .middle__container--four-cols {
