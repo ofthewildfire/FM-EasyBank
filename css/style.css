@@ -178,7 +178,7 @@ svg:is(:hover, :focus, :active)>path {
      border-radius: 5px;
      text-align: center;
      box-shadow: 0px 0px 2px var(--GrayishBlue);
-     animation: menuToggle 1s ease-in 0s 1 normal both;
+     animation: menuToggle .75s ease-in 0s 1 normal both;
 }
 
 @keyframes menuToggle {
