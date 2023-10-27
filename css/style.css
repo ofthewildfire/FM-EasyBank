@@ -62,7 +62,9 @@ body {
      font-family: var(--ff300);
      max-width: 1440px;
      width: 100%;
-     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      min-height: 100vh;
 }
 
@@ -253,8 +255,9 @@ svg:is(:hover, :focus, :active)>path {
 .middle {
      text-align: center;
      /* Might cause issue with max-width and bg colour */
-     /* padding: 2em .5em; */
-     background-color: var(--VeryLightGray);
+     padding-top: 2.5em;
+     padding-bottom: 2.5em;
+     background-color: var(--GrayishBlue);
 }
 
 .middle__container--title {
@@ -311,7 +314,8 @@ svg:is(:hover, :focus, :active)>path {
 }
 
 .articles__article>img {
-     max-width: 100%;
+     min-width: 100%;
+     width: 100%;
      border-top-left-radius: 5px;
      border-top-right-radius: 5px;
      object-fit: cover;
@@ -444,7 +448,8 @@ svg:is(:hover, :focus, :active)>path {
 
      .hero--main-left {
           text-align: left;
-          padding: 1em;
+          /* I actually cannot tell if this is functioning. I really cannot see it. */
+          padding: 0 2.5em;
           flex-grow: 1;
           flex-basis: 50%;
           order: 1;
